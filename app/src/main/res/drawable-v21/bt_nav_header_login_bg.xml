@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="?android:colorControlHighlight">
+
+    <item>
+        <shape android:shape="rectangle">
+
+            <!--
+                Definição da cor de background do shape
+                retangular.
+            -->
+            <solid android:color="@color/colorNavButton" />
+
+            <!--
+                Definição da curvatura das pontas do shape
+                retangular.
+            -->
+            <corners android:radius="3dp" />
+
+        </shape>
+    </item>
+</ripple>
